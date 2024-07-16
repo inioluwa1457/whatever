@@ -1,0 +1,363 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #43a4bd;
+    overflow: hidden;
+    
+}
+.aa{
+    margin-right: 5%;
+}
+
+.bb{
+    padding-left: 20%;
+    color: aqua;
+}
+.cc{ 
+    color: whitesmoke;
+}
+nav .logo{
+    flex: 1;
+    padding-left: 10%;
+    padding: 1%;
+    font-size: 30px;
+}
+nav a{
+    color: rgb(255, 254, 254);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    /* background-color: rgb(37, 36, 124); */
+    color:rgb(2, 0, 3);
+}
+nav .links{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    padding-right: 20px; 
+}
+.first{
+    display: flex;
+}
+.let{
+    padding-left: 10%;
+    flex: 1;
+    background-color: white;
+}
+.bold{
+    color: rgb(5, 5, 5);
+    font-size: 50PX;
+    font-weight: 900;
+    /* background: #bda743;  */
+    margin-top: 5%;  
+}
+.let p{
+    font-size: 20px;
+}
+.let a{
+    color: #43a4bd;
+}
+.let button{
+    padding:13.5px;
+    border:none;
+    outline: none;
+    background: rgb(14, 13, 13);
+    color:white;
+    text-align: center;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:30%;
+    height: 12%;
+    margin-left: -1%;
+    border-radius: 40px;
+}
+.go{
+    flex: 1;
+    margin-top: 3%;   
+}
+.joe{
+    display: flex;
+    /* padding-left: 5%; */
+    text-align: center;
+    height: 200px;
+
+}
+.joe p{
+    padding-top: 5%;
+    font-size: 20px;
+}
+.one {
+     flex: 1; 
+    background-color: rgb(5, 5, 5);
+    color: white;
+    
+} 
+.two{
+    flex: 1;
+    background-color: aqua;
+}
+.three{
+    flex: 1;
+    background-color:#43a4bd;
+} 
+.second{
+    text-align: center;
+    font-size: 20px;
+}
+.second i{
+    padding-top: 4%;
+    font-size: 50px;
+    padding-bottom: 2%;
+}
+.about{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 20px;
+}
+.com{
+    font-size: 40px;
+}
+.about button{
+    /* padding:13.5px; */
+    outline: none;
+    background:white;
+    color:rgb(5, 5, 5);
+    text-align: center;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:12%;
+    height: 3%;
+    margin-left: -1%;
+}
+
+.third{
+    display: flex;
+}
+.pic{
+    padding-top: 5%;
+    flex: 1;
+    height: 100%;
+     padding-left: 2%;  
+    /* margin-left: 5%; */
+}
+.word{ 
+    margin-top: 5%;
+    flex: 1;
+    padding-left:2% ;
+    background-color: #43a4bd;
+    color: white; 
+    font-size: 20px;
+    padding-left: 5%;
+}
+.bod{
+font-size: 30px;
+padding-top: 5%;
+}
+.word button{
+    padding:13.5px;
+    border:none;
+    outline: none;
+    background: white;
+    color:#43a4bd;
+    text-align: center;
+    font-size:14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:20%;
+    height: 12%;
+    margin-left: -1%;
+    border-radius: 40px;
+}
+.forth{
+    padding-top: 5%;
+    font-size: 20px;
+}
+.our{
+    text-align: center;
+}
+.mine{
+    display: flex;   
+}
+.pick{
+    padding-top: 3%;
+    flex: 1;
+    text-align: center;
+}
+.pick i{
+    background-color: #43a4bd;
+    padding:30px;
+    color: white;
+    border-radius: 100px;
+    font-size: 45px;
+
+}
+.pick p{
+    color: #3e3f3f;
+}
+.your{
+    display: flex;   
+}
+.them{
+    padding: 5%;
+    text-align: center;
+}
+.them button{
+    outline: none;
+    background:white;
+    color:rgb(5, 5, 5);
+    text-align: center;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:12%;
+    height: 3%;
+    margin-left: -1%;
+    border-color: #43a4bd;
+}
+.fifth{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    background-color: #d7dddd;
+}
+.we{
+    flex: 1;
+    padding-left: 10%;
+    padding-top: 3%;
+    background-color: #d7dddd;
+    font-size: 20px;
+}
+.bo{
+    font-size: 30px;
+}
+.we button{
+     /* padding:13.5px;  */
+    border:none;
+    outline: none;
+    background: #43a4bd;
+    color:white;
+    text-align: center;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:40%;
+    height: 12%;
+    margin-left: -1%;
+    border-radius: 40px;
+}
+.me{
+    flex: 1;
+    margin-left: 10%;
+}
+.sixth{
+    display: flex;background-color: #43a4bd;
+    padding:2%;
+}
+.get{
+    flex: 4;
+    padding-left: 5%;
+    color: white;
+}
+.get b{
+font-size: 30px;
+}
+.get p{
+    font-size: 20px;
+}
+.read{
+    flex: 1;
+    padding-top: 4%;
+}
+.read button{
+    /* padding:13.5px; */
+    border:none;
+    outline: none;
+    background: white;
+    color:#43a4bd;
+    text-align: center;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:60%;
+    height: 40%;
+    margin-left: -1%;
+    border-radius: 40px;
+}
+.seventh{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.login{
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+.user{
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+.user input{
+    width: 50%;
+    padding-bottom: 1.5%;
+}
+.log{
+    margin-top: 1%;
+    width: 10%;
+    padding-top: 0.5%; 
+    padding-bottom: 0.5%;
+    background-color: #43a4bd;
+    border: none;
+    outline: none;
+    font-size: 20px; 
+    color:#f3f7f8;
+    text-align: center;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.reg{
+    margin-left:0.5% ;
+    width: 20%;
+    padding-top: 0.5%; 
+    padding-bottom: 0.5%;
+    background-color: #43a4bd;
+    border: none;
+    outline: none;
+    font-size: 15px; 
+    color:#f3f7f8;
+    text-align: center;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.for{
+    padding-top: 1%;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+.eight{
+    display: flex;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #43a4bd;
+    color:white;
+}
+.ser{
+    flex: 1;
+}
+.ser a{
+  font-size: 25px;
+  color: white;
+}
+.nine{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    background-color: rgb(66, 64, 64);
+    font-size: 20px;
+}
+.nine a{
+    color: #43a4bd;
+    text-decoration: none;
+}
